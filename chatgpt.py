@@ -2,7 +2,7 @@ import torch
 import openai
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = ''
 
 def generate_text(prompt):
     response = openai.Completion.create(
